@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_v2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|graphic_demo|graphic_module:U1|vga_base_module:U2|vga_ram_module:U1|altsyncram:RAM_rtl_0" CBX_FILE_NAME="altsyncram_h4f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|graphic_demo|pll_module:U0|altpll:altpll_component" CBX_FILE_NAME="pll_module_altpll2.v"/>
+	</PROJECT>
+</LOG_ROOT>

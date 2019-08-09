@@ -1,0 +1,12 @@
+module graphic_demo(
+   input clk,
+   input rst_n,
+   input,
+   input,
+   output,
+   output
+);
+
+
+
+endmodule

@@ -1,0 +1,13 @@
+module vga_func_module(
+   input clk,
+   input rst_n,
+   output VGA_HSYNC, VGA_VSYNC,
+   output [15:0] VGAD
+);
+
+parameter SA = 10'd96, SB = 10'd48, SC = 10'd640, SD = 10'd16, SE = 10'd800;
+parameter SO = 10'd2, SP = 10'd33, SQ = 10'd480, SR = 10'd10, SS = 10'd525;
+
+
+
+endmodule

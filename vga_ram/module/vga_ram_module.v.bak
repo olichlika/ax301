@@ -1,0 +1,9 @@
+module vga_ram_module(
+   input clk,
+   input rst_n,
+   input,
+   input,
+   output,
+   output
+);
+endmodule

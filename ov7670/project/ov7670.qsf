@@ -1,0 +1,159 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 01:26:57  August 08, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ov7670_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY camera_demo
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:26:57  AUGUST 08, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH sccb_func_module_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME sccb_func_module_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id sccb_func_module_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME sccb_func_module_tb -section_id sccb_func_module_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE ../simulation/sccb_func_module_tb.v -section_id sccb_func_module_tb
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE stp2.stp
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_E1 -to clk
+set_location_assignment PIN_E15 -to rst_n
+set_location_assignment PIN_D6 -to CMOS_SDA
+set_location_assignment PIN_C6 -to CMOS_SCL
+set_location_assignment PIN_E7 -to test_CMOS_SCL
+set_location_assignment PIN_D8 -to test_CMOS_SDA
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_D4 -to CMOS_XCLK
+set_location_assignment PIN_M1 -to CMOS_PCLK
+set_location_assignment PIN_D5 -to CMOS_VSYNC
+set_location_assignment PIN_F6 -to CMOS_HREF
+set_location_assignment PIN_G5 -to CMOS_DQ[0]
+set_location_assignment PIN_F2 -to CMOS_DQ[1]
+set_location_assignment PIN_F3 -to CMOS_DQ[2]
+set_location_assignment PIN_F5 -to CMOS_DQ[3]
+set_location_assignment PIN_D1 -to CMOS_DQ[4]
+set_location_assignment PIN_D3 -to CMOS_DQ[5]
+set_location_assignment PIN_E5 -to CMOS_DQ[6]
+set_location_assignment PIN_C3 -to CMOS_DQ[7]
+set_location_assignment PIN_C15 -to VGAD[0]
+set_location_assignment PIN_B16 -to VGAD[1]
+set_location_assignment PIN_A15 -to VGAD[2]
+set_location_assignment PIN_B14 -to VGAD[3]
+set_location_assignment PIN_A14 -to VGAD[4]
+set_location_assignment PIN_B13 -to VGAD[5]
+set_location_assignment PIN_A13 -to VGAD[6]
+set_location_assignment PIN_B12 -to VGAD[7]
+set_location_assignment PIN_A12 -to VGAD[8]
+set_location_assignment PIN_B11 -to VGAD[9]
+set_location_assignment PIN_A11 -to VGAD[10]
+set_location_assignment PIN_B10 -to VGAD[11]
+set_location_assignment PIN_A10 -to VGAD[12]
+set_location_assignment PIN_B9 -to VGAD[13]
+set_location_assignment PIN_A9 -to VGAD[14]
+set_location_assignment PIN_C8 -to VGAD[15]
+set_location_assignment PIN_C16 -to VGA_HSYNC
+set_location_assignment PIN_D15 -to VGA_VSYNC
+set_location_assignment PIN_R5 -to S_DQ[0]
+set_location_assignment PIN_T4 -to S_DQ[1]
+set_location_assignment PIN_T3 -to S_DQ[2]
+set_location_assignment PIN_R3 -to S_DQ[3]
+set_location_assignment PIN_T2 -to S_DQ[4]
+set_location_assignment PIN_R1 -to S_DQ[5]
+set_location_assignment PIN_P2 -to S_DQ[6]
+set_location_assignment PIN_P1 -to S_DQ[7]
+set_location_assignment PIN_R13 -to S_DQ[8]
+set_location_assignment PIN_T13 -to S_DQ[9]
+set_location_assignment PIN_R12 -to S_DQ[10]
+set_location_assignment PIN_T12 -to S_DQ[11]
+set_location_assignment PIN_T10 -to S_DQ[12]
+set_location_assignment PIN_R10 -to S_DQ[13]
+set_location_assignment PIN_T11 -to S_DQ[14]
+set_location_assignment PIN_R11 -to S_DQ[15]
+set_location_assignment PIN_T8 -to S_A[0]
+set_location_assignment PIN_P9 -to S_A[1]
+set_location_assignment PIN_T9 -to S_A[2]
+set_location_assignment PIN_R9 -to S_A[3]
+set_location_assignment PIN_L16 -to S_A[4]
+set_location_assignment PIN_L15 -to S_A[5]
+set_location_assignment PIN_N16 -to S_A[6]
+set_location_assignment PIN_N15 -to S_A[7]
+set_location_assignment PIN_P16 -to S_A[8]
+set_location_assignment PIN_P15 -to S_A[9]
+set_location_assignment PIN_R8 -to S_A[10]
+set_location_assignment PIN_R16 -to S_A[11]
+set_location_assignment PIN_T15 -to S_A[12]
+set_location_assignment PIN_R4 -to S_CLK
+set_location_assignment PIN_R7 -to S_BA[0]
+set_location_assignment PIN_T7 -to S_BA[1]
+set_location_assignment PIN_T5 -to S_NCAS
+set_location_assignment PIN_R14 -to S_CKE
+set_location_assignment PIN_R6 -to S_NRAS
+set_location_assignment PIN_N1 -to S_NWE
+set_location_assignment PIN_T6 -to S_NCS
+set_location_assignment PIN_T14 -to S_DQM[1]
+set_location_assignment PIN_N2 -to S_DQM[0]
+set_global_assignment -name VERILOG_FILE ../module/sccb_func_module.v
+set_global_assignment -name VERILOG_FILE ../module/camera_save_module.v
+set_global_assignment -name VERILOG_FILE ../module/camera_func_module.v
+set_global_assignment -name VERILOG_FILE ../module/camera_control_module.v
+set_global_assignment -name VERILOG_FILE ../module/camera_base_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/sdram_module/sdram_top_mdule.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/sdram_module/sdram_func_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/sdram_module/sdram_demo.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/sdram_module/sdram_control_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/vga_base_module/vga_ram_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/vga_base_module/vga_func_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/vga_base_module/vga_base_module.v
+set_global_assignment -name VERILOG_FILE ../module/graphic_module/graphic_module.v
+set_global_assignment -name QIP_FILE ipcore/pll_module.qip
+set_global_assignment -name SIGNALTAP_FILE stp2.stp
+set_global_assignment -name CDF_FILE Chain3.cdf
+set_global_assignment -name VERILOG_FILE ../module/camera_demo.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

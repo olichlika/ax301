@@ -1,0 +1,9 @@
+module camera_control_module(
+   input clk,
+   input rst_n,
+   input,
+   input,
+   output,
+   output
+);
+endmodule

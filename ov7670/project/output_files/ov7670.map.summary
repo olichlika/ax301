@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Aug 09 12:15:02 2019
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : ov7670
+Top-level Entity Name : camera_demo
+Family : Cyclone IV E
+Total logic elements : 1,381
+    Total combinational functions : 1,178
+    Dedicated logic registers : 616
+Total registers : 616
+Total pins : 75
+Total virtual pins : 0
+Total memory bits : 52,224
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

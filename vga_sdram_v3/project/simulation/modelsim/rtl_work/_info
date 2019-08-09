@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/opendev_fpga/vga_ram/project/simulation/modelsim
+vpll_module
+Z1 !s110 1564140922
+!i10b 1
+!s100 Re>3A;T@PDKOJD`zl59o41
+I[Y_?E@NH=bjBJg;e[IT]X1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1564139039
+8E:/opendev_fpga/vga_ram/project/ipcore/pll_module.v
+FE:/opendev_fpga/vga_ram/project/ipcore/pll_module.v
+L0 39
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1564140922.978000
+!s107 E:/opendev_fpga/vga_ram/project/ipcore/pll_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/opendev_fpga/vga_ram/project/ipcore|E:/opendev_fpga/vga_ram/project/ipcore/pll_module.v|
+!i113 0
+Z4 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+E:/opendev_fpga/vga_ram/project/ipcore -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vvga_func_module
+R1
+!i10b 1
+!s100 IE0mJ_TCTL^4i]IQS5MDC1
+Io^]bRYfF8LTQ_Wi`XGjfk0
+R2
+R0
+w1564140916
+8E:/opendev_fpga/vga_ram/module/vga_func_module.v
+FE:/opendev_fpga/vga_ram/module/vga_func_module.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1564140922.908000
+!s107 E:/opendev_fpga/vga_ram/module/vga_func_module.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/opendev_fpga/vga_ram/module|E:/opendev_fpga/vga_ram/module/vga_func_module.v|
+!i113 0
+R4
+!s92 -vlog01compat -work work +incdir+E:/opendev_fpga/vga_ram/module -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact

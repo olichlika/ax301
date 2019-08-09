@@ -1,0 +1,24 @@
+module camera_demo(
+   input clk,
+   input rst_n,
+	
+	output CMOS1_SCL,
+	inout CMOS1_SDA,
+   output CMOS1_XCLK,
+	input CMOS1_PCLK,
+	input CMOS1_HREF,
+	input CMOS1_VSYNC,
+	input [7:0] CMOS1_DQ,
+	input CMOS1_STROBE,
+	output test_CMOS_SCL, test_CMOS_SDA
+);
+assign test_CMOS_SCL = CMOS1_SCL;
+assign test_CMOS_SDA = CMOS1_SDA;
+
+//pll_module U0(
+//	.inclk0 (clk),
+//	.c0 (clk_100mhz),
+//	.c1 (clk_25mhz)
+//);
+
+endmodule
